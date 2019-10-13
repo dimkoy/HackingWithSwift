@@ -1,10 +1,7 @@
 //
 //  GameViewController.swift
-//  Project36
-//
-//  Created by TwoStraws on 25/08/2016.
-//  Copyright © 2016 Paul Hudson. All rights reserved.
-//
+//  VuelingGame
+
 
 import UIKit
 import SpriteKit
@@ -26,9 +23,9 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
-			view.showsPhysics = true
+            view.showsFPS = false
+            view.showsNodeCount = false
+			view.showsPhysics = false
         }
     }
 

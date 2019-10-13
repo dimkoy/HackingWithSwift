@@ -1,10 +1,7 @@
 //
 //  AppDelegate.swift
-//  Project36
-//
-//  Created by TwoStraws on 25/08/2016.
-//  Copyright © 2016 Paul Hudson. All rights reserved.
-//
+//  VuelingGame
+
 
 import UIKit
 

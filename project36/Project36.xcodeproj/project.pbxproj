@@ -23,7 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		519F75DE1D6F1177002B1440 /* Project36.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project36.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5E9D1423526C2D002AF176 /* Project36.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project36.entitlements; sourceTree = "<group>"; };
+		519F75DE1D6F1177002B1440 /* VuelingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuelingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519F75E11D6F1177002B1440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		519F75E31D6F1177002B1440 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		519F75E71D6F1177002B1440 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -62,7 +63,7 @@
 		519F75DF1D6F1177002B1440 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				519F75DE1D6F1177002B1440 /* Project36.app */,
+				519F75DE1D6F1177002B1440 /* VuelingGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +71,7 @@
 		519F75E01D6F1177002B1440 /* Project36 */ = {
 			isa = PBXGroup;
 			children = (
+				0A5E9D1423526C2D002AF176 /* Project36.entitlements */,
 				519F75F91D6F143E002B1440 /* Content */,
 				519F75E11D6F1177002B1440 /* AppDelegate.swift */,
 				519F75E31D6F1177002B1440 /* GameScene.sks */,
@@ -113,7 +115,7 @@
 			);
 			name = Project36;
 			productName = Project36;
-			productReference = 519F75DE1D6F1177002B1440 /* Project36.app */;
+			productReference = 519F75DE1D6F1177002B1440 /* VuelingGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +130,7 @@
 				TargetAttributes = {
 					519F75DD1D6F1177002B1440 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = B5C26XE59E;
+						DevelopmentTeam = 292K3XX9N4;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -139,6 +141,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -318,13 +321,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				CODE_SIGN_ENTITLEMENTS = Project36/Project36.entitlements;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 292K3XX9N4;
 				INFOPLIST_FILE = Project36/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.Project36;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DmitriiCh.giovanni;
+				PRODUCT_NAME = VuelingGame;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -332,13 +340,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				CODE_SIGN_ENTITLEMENTS = Project36/Project36.entitlements;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 292K3XX9N4;
 				INFOPLIST_FILE = Project36/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.Project36;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DmitriiCh.giovanni;
+				PRODUCT_NAME = VuelingGame;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
